@@ -1,0 +1,167 @@
+{
+  "accessors": [
+    {
+      "name": "bunny_outward_2:bunny_no_uv_polySurface1 bunny_outward_2:polySurface1 group_1_0_positions",
+      "componentType": 5126,
+      "count": 208992,
+      "min": [
+        -0.7789000272750854,
+        -0.6701300144195557,
+        -0.6037399768829346
+      ],
+      "max": [
+        0.7780900001525879,
+        0.8732100129127502,
+        0.6029999852180481
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "bunny_outward_2:bunny_no_uv_polySurface1 bunny_outward_2:polySurface1 group_1_0_normals",
+      "componentType": 5126,
+      "count": 208992,
+      "min": [
+        -0.9999977350234985,
+        -0.999748170375824,
+        -0.9999992847442627
+      ],
+      "max": [
+        0.9999971985816956,
+        0.999907910823822,
+        0.9999720454216003
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "bunny_outward_2:bunny_no_uv_polySurface1 bunny_outward_2:polySurface1 group_1_0_texcoords",
+      "componentType": 5126,
+      "count": 208992,
+      "min": [
+        0.09687100350856781,
+        0.045170001685619354
+      ],
+      "max": [
+        0.9357820153236389,
+        0.9254419803619385
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "name": "bunny_outward_2:bunny_no_uv_polySurface1 bunny_outward_2:polySurface1 group_1_0_indices",
+      "componentType": 5125,
+      "count": 208992,
+      "min": [
+        0
+      ],
+      "max": [
+        208991
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 0
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "bunny_uv",
+      "byteLength": 7523712,
+      "uri": "bunny_uv.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "bufferView_0",
+      "buffer": 0,
+      "byteLength": 2507904,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_1",
+      "buffer": 0,
+      "byteLength": 2507904,
+      "byteOffset": 2507904,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_2",
+      "buffer": 0,
+      "byteLength": 1671936,
+      "byteOffset": 5015808,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_3",
+      "buffer": 0,
+      "byteLength": 835968,
+      "byteOffset": 6687744,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "initialShadingGroup",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "bunny_outward_2:bunny_no_uv_polySurface1 bunny_outward_2:polySurface1 group_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "bunny_outward_2:bunny_no_uv_polySurface1 bunny_outward_2:polySurface1 group",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
